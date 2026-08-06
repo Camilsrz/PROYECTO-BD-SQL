@@ -17,9 +17,9 @@ La situación actual ha traído como consecuencia:
 
 # Diseño:
 
-* 1. Modelo Entidad Relacion (./diagramas/Entidad Relacion.png)
-* 2. Modelo Relacion Basado en Requerimientos (./diagramas/Relacional.png)
-* 3. Modelo Relacional Normalizado (./diagramas/Relacional Normalizado.png) 
+* Modelo Entidad Relacion (./diagramas/Entidad Relacion.png)
+* Modelo Relacion Basado en Requerimientos (./diagramas/Relacional.png)
+* Modelo Relacional Normalizado (./diagramas/Relacional Normalizado.png) 
 
 # Puntos Destacados
 
@@ -35,3 +35,13 @@ La situación actual ha traído como consecuencia:
 
 # Uso de Inteligencia Artificial
 Para el desarrollo de este proyecto se integraron herramientas de IA para refinar la jerarquia del orden secuencial, creación de registros simulados extensos basados en Colombia y validacion de consultas.
+
+# Ejecucion en PostgreSQL
+Para desplegar esta base de datos en un entorno local mediante la terminal psql:
+
+* Crear y conectarse a la base de datos local
+CREATE DATABASE alimentamos_db;
+\c alimentamos_db;
+\i 'C:/proyectos/proyecto_db_alimentamos/CODEB_PSTG.sql'
+\i 'C:/proyectos/proyecto_db_alimentamos/DATA_DB_POSTGRES.sql'
+\i 'C:/proyectos/proyecto_db_alimentamos/CONSULTAS_BD_POSTGRESQL.sql'
