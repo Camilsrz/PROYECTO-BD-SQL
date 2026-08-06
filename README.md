@@ -37,7 +37,7 @@ La situación actual ha traído como consecuencia:
 Para desplegar esta base de datos en un entorno local mediante la terminal psql:
 
 Crear y conectarse a la base de datos local
-CREATE DATABASE alimentamos_db;
+* CREATE DATABASE alimentamos_db;
 * \c alimentamos_db;
 * \i 'C:/proyectos/proyecto_db_alimentamos/CODEB_PSTG.sql'
 * \i 'C:/proyectos/proyecto_db_alimentamos/DATA_DB_POSTGRES.sql'
