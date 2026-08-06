@@ -35,7 +35,7 @@ CREATE TABLE producto (
 );
 
 CREATE TABLE ruta (
-  nombre VARCHAR(20) NOT NULL,
+  nombre VARCHAR(45) NOT NULL,
   fecha_apertura DATE NOT NULL,
   costo_ruta DOUBLE PRECISION,
   ciudad_destino VARCHAR(30) NOT NULL,
